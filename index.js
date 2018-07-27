@@ -223,7 +223,7 @@ const handlers = {
         else if (slots.State.confirmationStatus !== 'CONFIRMED') {
             if (slots.State.confirmationStatus !== 'DENIED') {
                 const slotToConfirm = 'State';
-                const speechOutput = `The state of this record is ${slots.Parameter.value}, correct?`;
+                const speechOutput = `The state of this record is ${slots.State.value}, correct?`;
                 const repromptSpeech = speechOutput;
                 return this.emit(':confirmSlot', slotToConfirm, speechOutput, repromptSpeech);
             }
