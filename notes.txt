@@ -1,0 +1,7 @@
+Possible privacy/security solutions:
+	1. Private skill?
+	2. Amazon RDS with a VPC security group?
+
+Relevant links: 
+	https://stackoverflow.com/questions/37981362/how-to-run-amazon-echo-inside-a-private-network-without-aws
+
